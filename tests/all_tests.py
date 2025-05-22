@@ -39,9 +39,6 @@ class TestCSVtoJSON(unittest.TestCase):
     def test_always_pass(self):
         self.assertEqual(1 + 1, 2, "This test should always pass")
 
-    def test_intentional_fail(self):
-        self.assertEqual(1, 2, "This test is designed to fail")
-
 if __name__ == '__main__':
     unittest.main()
 
